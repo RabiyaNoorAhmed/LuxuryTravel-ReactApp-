@@ -1,0 +1,27 @@
+.about-container{
+    margin: 4rem 6rem;
+    text-align: start;
+}
+.about-container h1{
+    padding-bottom: 1rem;
+    color: #8A53FF;
+}
+.about-container p{
+    padding-bottom: 2rem;
+    color: #434343;
+}
+.about-container div{
+    box-shadow: -1px 1px 62px -18px rgba(0, 0, 0, 0.10);
+    padding: 2rem;
+    margin: 1.8rem 0;
+    cursor: pointer;
+    transition: 0.3s ease-in;
+}
+.about-container div:hover{
+    transform: scale(1.1);
+}
+@media screen and (max-width: 850px){
+    .about-container{
+        margin: 4rem 2rem;
+    }
+}
